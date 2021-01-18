@@ -66,7 +66,6 @@
             this.label2.Size = new System.Drawing.Size(32, 24);
             this.label2.TabIndex = 2;
             this.label2.Text = "00";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -91,7 +90,6 @@
             this.Controls.Add(this.pbCanvas);
             this.Name = "SnakeGame";
             this.Text = "Snake Game";
-            this.Load += new System.EventHandler(this.SnakeGame_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
             ((System.ComponentModel.ISupportInitialize)(this.pbCanvas)).EndInit();

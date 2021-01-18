@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-    class Square
+    public class Square
     {
         public int X { get; set; }
         public int Y { get; set; }
