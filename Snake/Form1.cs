@@ -21,5 +21,25 @@ namespace Snake
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void keyisdown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void keyisup(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void updateGraphics(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
